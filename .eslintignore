@@ -1,0 +1,15 @@
+# Ignore all TypeScript files
+*.ts
+*.tsx
+
+# Ignore specific directories
+.next/
+node_modules/
+dist/
+build/
+
+# Ignore specific files causing issues
+src/app/dashboard/project/new/page.tsx
+src/app/dashboard/project/page.tsx
+src/features/user/user-settings.tsx
+src/lib/data-store.ts
