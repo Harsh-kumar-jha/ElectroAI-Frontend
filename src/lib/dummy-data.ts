@@ -261,7 +261,7 @@ export const DUMMY_ELECTRICAL_PANELS: ElectricalPanel[] = [
     shortCircuitRating: 65000,
     location: "Electrical Room - Basement",
     coordinates: { x: 50, y: 30, z: 0 },
-    feedFrom: null,
+    feedFrom: undefined,
     totalLoad: 3200,
     connectedLoad: 2800,
     demandFactor: 0.85,
